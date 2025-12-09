@@ -1,0 +1,10 @@
+TIPO,        VALOR,       ETQ,         CODOP,       OPER 
+DIR_INIC,        4000,       NULL,       ORG,       $4000,       
+CONTLOC,       4000,       NULL,       LDAA,       #$15,       
+CONTLOC,       4002,       INI,       LDAA,       15,       
+CONTLOC,       4004,       NULL,       BNE,       INI,       
+CONTLOC,       4006,       NULL,       LBNE,       INI,       
+CONTLOC,       400A,       NULL,       IBNE,       A,FIN,       
+CONTLOC,       400D,       NULL,       IBNE,       A,INI,       
+CONTLOC,       4010,       NULL,       LDAA,       4,Y,       
+CONTLOC,       4012,       FIN,       END,       NULL,       

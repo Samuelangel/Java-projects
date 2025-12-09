@@ -1,0 +1,8 @@
+TIPO,        VALOR,       ETQ,         CODOP,       OPER 
+DIR_INIC,        1010,       NULL,       ORG,       $1010,       
+CONTLOC,       1010,       NULL,       NOP,       NULL,       
+CONTLOC,       1011,       NULL,       INX,       NULL,       
+CONTLOC,       1012,       ET1,       ADCA,       #3,       
+VALOR,          0007,       TRES,       EQU,       %111,       
+CONTLOC,       1014,       UNO,       DS.B,       3,       
+CONTLOC,       1017,       NULL,       END,       NULL,       

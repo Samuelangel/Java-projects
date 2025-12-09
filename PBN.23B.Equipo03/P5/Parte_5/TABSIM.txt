@@ -1,0 +1,3 @@
+TIPO            Si       Ti            
+RELATIVA       INI       4002       
+RELATIVA       FIN       4012       

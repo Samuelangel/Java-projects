@@ -1,0 +1,10 @@
+TIPO,        VALOR,       ETQ,         CODOP,       OPER 
+DIR_INIC,        0100,       NULL,       ORG,       $100,       
+VALOR,          0030,       UNO,       EQU,       $30,       
+VALOR,          0505,       DOS,       EQU,       $505,       
+CONTLOC,       0100,       LBL1,       DC.B,       "ABC",       
+CONTLOC,       0103,       NULL,       LDY,       #LBL1,       
+CONTLOC,       0106,       NULL,       LDX,       UNO,       
+CONTLOC,       0108,       ET1,       LDAA,       DOS,       
+CONTLOC,       010A,       NULL,       LDAB,       LBL1,       
+CONTLOC,       010C,       NULL,       END,       NULL,       
